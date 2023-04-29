@@ -7,6 +7,7 @@
 body {
     font-style: normal;
     font-family: 'Montserrat';
+    background-color: #2A3B49;
 }
 
 
@@ -41,21 +42,24 @@ main {
 main h2 {
     margin: 15px 0px;
     font-weight: bold;
+    color: white;
 }
 
 main h3 {
     margin-bottom: 15px;
+    color: white;
 }
 
 main p {
     margin: 15px 0px;
+    color: white;
 }
 
 
 main button {
     color: #7BFFE9;
     background-color: #2A3B49;
-    padding: ;
+    border: #7BFFE9 solid 2px;
     width: 116px;
     height: 35px;
     border-radius: 60px;
