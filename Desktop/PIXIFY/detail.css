@@ -19,13 +19,24 @@ header {
     column-gap: 10px;
 }
 
+nav {
+    display: flex;
+    column-gap: 20px;
+}
+
 a {
     color: white;
     text-decoration: none;
 }
 
-.pixify, .darkmode {
+.pixify {
     color: #7BFFE9;
+    padding-left: 15px;
+}
+
+.darkmode {
+    color: #7BFFE9; 
+    padding-right: 15px;
 }
 
 
@@ -60,4 +71,9 @@ main button {
     height: 35px;
     border-radius: 60px;
     
+}
+
+.button-container {
+    display: flex;
+    column-gap: 10px;
 }

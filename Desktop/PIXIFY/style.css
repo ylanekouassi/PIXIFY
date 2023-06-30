@@ -42,8 +42,9 @@ body {
 
 /* .header nav {} */
 nav {
+    display: flex;
     text-decoration: none;
-    row-gap: 5px;
+    column-gap: 20px;
 }
     
 
